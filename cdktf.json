@@ -4,7 +4,9 @@
   "codeMakerOutput": "generated",
   "projectId": "8d23315e-cd37-4886-a1c0-a78b9b85b3a7",
   "sendCrashReports": "true",
-  "terraformProviders": [],
+  "terraformProviders": [
+    "hashicorp/google@~> 3.0"
+  ],  
   "terraformModules": [],
   "context": {
     "excludeStackIdFromLogicalIds": "true",
